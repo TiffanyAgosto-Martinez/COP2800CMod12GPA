@@ -3,7 +3,7 @@
 // 4/10/2026
 // Generic DataWrapper class
 
-package edu.fscj.cop2800c.util;
+package edu.fscj.cop2800c.penguin.util;
 
 import java.util.List;
 

@@ -5,9 +5,9 @@
 
 package edu.fscj.cop2800c.penguin;
 
-import edu.fscj.cop2800c.util.DataWrapper;
-import java.util.List;
+import edu.fscj.cop2800c.penguin.util.DataWrapper;
 import java.util.ArrayList;
+import java.util.List;
 
 public class PalmerPenguins {
     public static void main(String[] args) {
@@ -110,10 +110,10 @@ public class PalmerPenguins {
         // psuedocode
         // Instantiate a new ArrayList of DataWrapper<Penguin> objects
         List<DataWrapper<Penguin>> penguinList = new ArrayList<>();
-        int sampleSize = 9;
+        int sampleSize = 8;
         
         // Loop to extract a subset of the PenguinAnalyzer's data
-        for (int sample = 0; sample < sampleSize; sample++) {
+        for (int sample = 0; sample <= sampleSize; sample++) {
             // Get a penguin
             Penguin penguin = analyzer.getPenguinBySampleNum(sample);
             // Check if penguin object is not null
